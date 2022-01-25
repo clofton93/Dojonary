@@ -1,0 +1,147 @@
+nav{
+    height: 75px;
+    background-color: lightgrey;
+    margin-left:  75px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#loginBtn{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-top: 10px;
+    background-color: darkblue;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: 60px;
+    height: 45px;
+    padding-right: 10px;
+    margin-right: 35px;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+}
+nav h1{
+    margin-left: 25px;
+    font-size: 35px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 600px;
+    border: 3px solid black;
+}
+
+#def-1{
+    margin-top: 25px;
+    margin-left: 75px;
+    border: 3px solid black;
+    width: 55%;
+    height: 350px;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+#def-2{
+    margin-top: 25px;
+    margin-left: 75px;
+    border: 3px solid black;
+    width: 55%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+#add-def{
+    border: 3px solid black;
+    width: 25%;
+    height: 250px;
+    display: inline-flex;
+    margin-right: 75px;
+    margin-top: 25px;
+    justify-content: center;
+    padding-top: 0px;
+    float: right;
+}
+#def-1 button {
+    width: 150px;
+    height: 50px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: goldenrod;
+    margin-left: 0px;
+}
+
+#def-1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -155px;
+    margin-left: 150px;
+    margin-right: 45px;
+    
+
+}
+#def-1 h1{
+    font-size: 55px;
+}
+#def-1 h2{
+    padding-left: 35px;
+    margin-top: -35px;
+}
+#def-1 h3{
+    padding-left: 5px;
+    margin-top: -15px;
+}
+#def-2 button{
+    width: 150px;
+    height: 50px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: goldenrod;
+    margin-left: 0px;
+}
+#def-2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -155px;
+    margin-left: 150px;
+    margin-left: 45px;
+}
+#def-2 h1{
+    font-size: 55px;
+    
+}
+#def-2 h2{
+    padding-left: 35px;
+    margin-top: -35px;
+}
+#def-h3{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+#add-def{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    width: 28%;
+}
+#hideBtn{
+    width: 200px;
+    height: 50px;
+    margin-top: 175px;
+    margin-right: 500px;
+    display: block;
+    justify-content: center;
+    align-items: baseline;
+    background-color: green;
+    color: black;
+    border: 3px solid black;
+}
